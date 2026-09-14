@@ -505,7 +505,7 @@
     z-index:1;
   }
   .photo-frame .img{
-    position:absolute; inset:0;
+    
     background-image:url('assets/profile.jpg');
     background-size:cover;
     background-position:center;
@@ -579,13 +579,18 @@
   .about-facts .ic-circle svg{ width:20px; height:20px; stroke:var(--rose-deep); }
   .about-facts b{ display:block; font-family:'Markazi Text', serif; font-size:30px; color:var(--rose-deep); }
   .about-facts span{ font-size:13.5px; color:var(--ink-soft); }
-
-  @media (max-width:900px){
+ @media (max-width:900px){
     .about-grid{ grid-template-columns:1fr; }
     .photo-stack{ max-width:340px; margin:0 auto 40px; }
     .photo-quote{ right:12px; }
   }
 
+
+
+
+
+
+ 
   /* ============================================================
      آراء العميلات
   ============================================================= */
